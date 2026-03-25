@@ -23,7 +23,7 @@ increasebtn.addEventListener("click", function () {
 // decrease Btn Function
 
 decreasebtn.addEventListener("click", function () {
-  if (count > 1) {
+  if (count > 0) {
     count--;
     countingnumber.textContent = count;
   }
